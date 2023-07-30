@@ -1,0 +1,18 @@
+﻿.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.grid-item {
+    /*background-color: aqua;*/
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+    border-radius:12px;
+}
+
+
+    .grid-item:hover {
+        transform: scale(1.1);
+    }

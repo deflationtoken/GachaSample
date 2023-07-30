@@ -1,1 +1,3 @@
 # GachaSample
+
+hoge

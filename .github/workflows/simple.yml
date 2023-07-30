@@ -20,7 +20,7 @@ jobs:
 
       # Publish the site
       - name: Publish
-        run: dotnet publish BlazorApp2.csproj -p:GHPages=true -c:Release -o:publish
+        run: dotnet publish BlazorApp2.Client.csproj -p:GHPages=true -c:Release -o:publish
 
       # Deploy the site
       - name: Deploy
